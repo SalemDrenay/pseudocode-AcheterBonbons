@@ -2,11 +2,11 @@ début AcheterBonbons (réel prix, réel argent)
 
   réel prixCumulé ← prix + prix
 
-	Tant que prixCumulé < argent
-		réel prixCumulé ← prixCumulé + prix
-	Fin Tant que
+  Tant que prixCumulé < argent
+    réel prixCumulé ← prixCumulé + prix
+  Fin Tant que
 
-	entier quantitéB ← prixCumulé / prix
+  entier quantitéB ← prixCumulé / prix
   retourner quantitéB
 
 fin  AcheterBonbons
